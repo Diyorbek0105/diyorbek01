@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    background-color: rgba(26, 50, 78, 0.853);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+}
+.burger{
+    width: 56%;
+    display: flex;
+    align-items: center;
+    gap: 15%;
+}
+.burger form{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+.burger form input{
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+.burger form input::placeholder{
+    color: rgba(0, 0, 0, 0.632);
+}
+.header_flex{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 16%;
+}
+
+.burger img{
+    width: 25%;
+}
+.burger form img{
+    width: 18%;
+}
+.img1{
+    width: 18%;
+}
+.img2{
+    width: 30%;
+}
+.img3{
+    width: 24%;
+}
